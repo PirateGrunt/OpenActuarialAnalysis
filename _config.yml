@@ -7,18 +7,18 @@ highlighter: pygments
 permalink:        /blog/:year/:month/:day/:title
 
 # Setup
-title:            'Jekyll Metro'
-tagline:          'A Metro theme for Jekyll'
-description:      'A Sample blog using Jekyll Metro'
+title:            'Open Actuarial Analysis'
+tagline:          'Using open source tools and actuarial science'
+description:      'You got the science, you got the open tools'
 url:              'http://pirategrunt.github.io/OpenActuarialAnalysis'
-baseurl:          ''
+baseurl:          'http://pirategrunt.github.io/OpenActuarialAnalysis'
 
 # Navigation
 navigation:
 - text: About
   url: /about/
-- text: Resume
-  url: /resume/
+- text: Data
+  url: /data/
 - text: Blog
   url: /blog/
 - text: Tags
@@ -27,11 +27,10 @@ navigation:
   url : /archive/
 
 # Author Details
-author:         'Abdel Raoof Olakara'
+author:         'Brian A. Fannin'
 linkedin:       'https://ae.linkedin.com/in/olakara/'
-twitter:        'https://twitter.com/olakara'
+twitter:        'https://twitter.com/FanninQED'
 facebook:       'https://www.facebook.com/olakara'
-gplus:          'https://plus.google.com/100425464897246255887/'
 
 # Google Analytics
 gahandler: 'UA-52149651-1'
@@ -45,4 +44,4 @@ paginate_path: '/blog/page:num'
 destination: ./_site
 
 # Custom vars
-version:          0.7.9
+version:          0.1.1
