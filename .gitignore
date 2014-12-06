@@ -1,3 +1,6 @@
+_site
+Gemfile.lock
+
 #################
 ## Eclipse
 #################
@@ -213,3 +216,4 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+.Rproj.user
